@@ -31,8 +31,8 @@ p {
   color: #8f8f8f;
 }
 
-.container-fluid {
-  padding: 3% 15%;
+.top-container {
+  padding: 3% 15% 6.25rem;
 }
 
 .navbar-brand {
@@ -62,7 +62,7 @@ p {
   margin-bottom: auto;
 }
 
-.btn {
+.hero-btn {
   margin-top: 1rem;
 }
 
@@ -72,15 +72,19 @@ p {
 
 .screenshot-image {
   width: 60%;
-  padding-top: 3rem;
-  padding-left: 6rem;
   transform: rotate(25deg);
+  position: absolute;
+  right: 1rem;
+}
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
 .ftr-col {
-  padding: 10% 2%;
+  padding: 4%;
   text-align: center;
-  line-height: 2;
 }
 
 .ftr-col > i {
@@ -133,4 +137,33 @@ p {
 
 .idk-what-to-call-this {
   margin-bottom: 3.5rem;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+
+@media all and (max-width: 992px) {
+
+  h1{
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.5rem
+  }
+  .navbar-brand{
+    font-size: 1.25rem;
+  }
+  .text-hero {
+   text-align: center;
+  }
+  .btn-outline-light{
+    margin-left:0;
+  }
+  .screenshot-image {
+    position: static;
+    margin-top: 5rem;
+    margin-left: 25%;
+  }
 }
