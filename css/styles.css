@@ -143,19 +143,43 @@ p {
   padding: 3% 2%;
 }
 
+#cta {
+  background-color: #ff4c68;
+  padding: 10% 7%;
+  text-align: center;
+}
+
+.cta-header{
+  color: white;
+  font-size: 3rem;
+}
+
+.cta-btn {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.cta-btn.btn-outline-light {
+  margin-left: 2rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 10% 7%
+}
+
+.footer-link {
+  padding: 2% 1.5%;
+  color: black;
+}
+
+.footer-link:hover {
+  color: #8f8f8f;
+}
+
 
 @media all and (max-width: 992px) {
-
-  h1{
-    font-size: 1.5rem;
-  }
-  h2 {
-    font-size: 1.5rem
-  }
-  .navbar-brand{
-    font-size: 1.25rem;
-  }
-  .text-hero {
+  #title {
    text-align: center;
   }
   .btn-outline-light{
@@ -164,6 +188,6 @@ p {
   .screenshot-image {
     position: static;
     margin-top: 5rem;
-    margin-left: 25%;
+    transform: rotate(0deg);
   }
 }
