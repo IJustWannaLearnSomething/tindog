@@ -10,48 +10,33 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  line-height: 1.5;
 }
 
 .hero-heading {
-  font-size: 3rem;
-  font-weight: bold;
   color: white;
 }
 
-.feature-heading {
+.section-heading {
   font-weight: bold;
   font-size: 3rem;
+  line-height: 1.5;
 }
 
-.testimonial-heading {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.pricing-heading {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.feature-heading {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.card-heading {
+.sub-heading {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
 .cta-heading{
-  font-weight: bold;
   color: white;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 /* Headings End */
+
+
+
+
+/* Title Section*/
 
 #title {
   background-color: #ff4c68;
@@ -101,6 +86,14 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   right: 1rem;
 }
+
+/* Title Section End*/
+
+
+
+
+/* Features Section*/
+
 #features {
   padding: 7% 15%;
   background-color: white;
@@ -121,8 +114,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff4c68;
 }
 
+/* Feature Section End*/
 
 
+
+
+/* Testimonial Section*/
 
 #testimonials {
   text-align: center;
@@ -139,6 +136,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 100%;
   margin: 1.25rem;
 }
+
+/* Testimonial Section End*/
+
+
+
+
+/* Press Section*/
 
 #press {
   background-color: #ef8172;
@@ -168,6 +172,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 3% 2%;
 }
 
+/* Pricing Section End*/
+
+
+
+
+/* Call To Action */
+
 #cta {
   background-color: #ff4c68;
   padding: 10% 7%;
@@ -185,6 +196,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 2rem;
 }
 
+/* Call To Action End*/
+
+
+
+
+/* Footer Section*/
+
 #footer {
   text-align: center;
   padding: 10% 7%
@@ -199,6 +217,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #8f8f8f;
 }
 
+/* Footer Section End*/
+
+
+
+/* Media Queries*/
 
 @media all and (max-width: 992px) {
   #title {
@@ -213,3 +236,5 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(0deg);
   }
 }
+
+/* Media Queries End*/
