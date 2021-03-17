@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 p {
@@ -12,8 +13,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.hero-heading {
+.white-heading {
   color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
 }
 
 .section-heading {
@@ -25,10 +29,6 @@ h1, h2, h3, h4, h5, h6 {
 .sub-heading {
   font-size: 1.5rem;
   font-weight: 600;
-}
-
-.cta-heading{
-  color: white;
 }
 /* Headings End */
 
@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Title Section*/
 #title {
   background-color: #ff4c68;
+  text-align: left;
 }
 
 .top-container {
@@ -93,7 +94,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .ftr-col {
   padding: 4%;
-  text-align: center;
 }
 
 .ftr-col > i {
@@ -109,7 +109,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Testimonial Section*/
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -129,7 +128,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Press Section*/
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -141,7 +139,6 @@ h1, h2, h3, h4, h5, h6 {
 #pricing {
   padding: 10% 7%;margin-top: 3rem;
   margin-bottom: 3rem;
-  text-align: center;
 }
 
 .card {
@@ -162,14 +159,12 @@ h1, h2, h3, h4, h5, h6 {
 #cta {
   background-color: #ff4c68;
   padding: 10% 7%;
-  text-align: center;
 }
 /* Call To Action End*/
 
 
 /* Footer Section*/
 #footer {
-  text-align: center;
   padding: 10% 7%
 }
 
