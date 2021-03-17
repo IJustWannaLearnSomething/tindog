@@ -6,8 +6,8 @@ p {
   color: #8f8f8f;
 }
 
-/* Headings */
 
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
@@ -30,14 +30,22 @@ h1, h2, h3, h4, h5, h6 {
 .cta-heading{
   color: white;
 }
-
 /* Headings End */
 
 
+/* Download Buttons */
+.download-btn {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.download-btn.btn-outline-light {
+  margin-left: 2rem;
+}
+/* Download Buttons End */
 
 
 /* Title Section*/
-
 #title {
   background-color: #ff4c68;
 }
@@ -67,33 +75,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
 }
 
-.text-hero {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.hero-btn {
-  margin-top: 1rem;
-}
-
-.btn-outline-light {
-  margin-left: 1rem;
-}
-
 .screenshot-image {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
   right: 1rem;
 }
-
 /* Title Section End*/
 
 
-
-
 /* Features Section*/
-
 #features {
   padding: 7% 15%;
   background-color: white;
@@ -113,14 +104,10 @@ h1, h2, h3, h4, h5, h6 {
 .ftr-col > i:hover {
   color: #ff4c68;
 }
-
 /* Feature Section End*/
 
 
-
-
 /* Testimonial Section*/
-
 #testimonials {
   text-align: center;
   background-color: #ef8172;
@@ -136,14 +123,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 100%;
   margin: 1.25rem;
 }
-
 /* Testimonial Section End*/
 
 
-
-
 /* Press Section*/
-
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -156,7 +139,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #pricing {
-  padding: 10% 7%;
+  padding: 10% 7%;margin-top: 3rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -171,38 +155,19 @@ h1, h2, h3, h4, h5, h6 {
 .price-col {
   padding: 3% 2%;
 }
-
 /* Pricing Section End*/
 
 
-
-
 /* Call To Action */
-
 #cta {
   background-color: #ff4c68;
   padding: 10% 7%;
   text-align: center;
 }
-
-
-
-.cta-btn {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.cta-btn.btn-outline-light {
-  margin-left: 2rem;
-}
-
 /* Call To Action End*/
 
 
-
-
 /* Footer Section*/
-
 #footer {
   text-align: center;
   padding: 10% 7%
@@ -216,13 +181,10 @@ h1, h2, h3, h4, h5, h6 {
 .footer-link:hover {
   color: #8f8f8f;
 }
-
 /* Footer Section End*/
 
 
-
 /* Media Queries*/
-
 @media all and (max-width: 992px) {
   #title {
    text-align: center;
@@ -236,5 +198,4 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(0deg);
   }
 }
-
 /* Media Queries End*/
